@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <h1 class="text-center">Angular Project</h1>
+</div> 
+<div class="container" mb-y3>
+    <app-add-todo (todoAdd)="addTodo($event)"  ></app-add-todo>
+<h4>Your Todos</h4>
+<div *ngIf="this.todos.length===0; else elseBlock">No Todos to Display</div>
+<ng-template #elseBlock>
+<div *ngFor="let todo of todos; index as i">
+<app-todo-items [todo]="todo" [i]="i" (todoDelete)="deleteTodo($event)"  (todoCheckBox)="toggleTodo($event)"></app-todo-items>
+</div>
+</ng-template>
+</div>

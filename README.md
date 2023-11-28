@@ -8,11 +8,9 @@ Run `ng serve --open` for a dev server. Navigate to `http://localhost:4200/`. Th
 
 ## Final Output of the project
 ![ToDo](https://github.com/Dhanesha151001/angular-to-do-list/assets/103206429/fcdc8014-9806-414d-9ce8-c9adf2a312c7)
-
 This is the Home Page. To run this page on the live server run "http://localhost:4200/" on the browser.
 
 ![ToDo2](https://github.com/Dhanesha151001/angular-to-do-list/assets/103206429/a0892741-2095-406a-86ff-083fb3b61188)
-
 This is the About Section of the page. To run this page on the live server run "http://localhost:4200/about" on the browser.
 
 

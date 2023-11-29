@@ -4,9 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 ## Initially, 
-install bootstrap and jQuery modules: 
--`npm install bootstrap`
--`npm install jquery `
+install bootstrap and jQuery modules: <br>
+-`npm install bootstrap` <br>
+-`npm install jquery ` <br> 
 
 Then add the node modules location in the angular.json file in architect build in style as:
 `styles:"./node_modules/bootstrap/dist/css/bootstrap.min.css"`
